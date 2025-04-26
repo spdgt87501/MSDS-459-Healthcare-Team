@@ -55,40 +55,19 @@ Top 10 Companies Reddit:
 
 
 Top 10 Companies BlueSky:
-company
-symbol
-url
-Eli Lilly
-LLY
-https://bsky.app/profile/bluestocks.app/feed/stock-lly
-United Health
-UNH
-https://bsky.app/profile/bluestocks.app/feed/stock-unh
-Johnson & Johnson
-JNJ
-https://bsky.app/profile/bluestocks.app/feed/stock-jnj
-Abbvie
-ABBV
-https://bsky.app/profile/bluestocks.app/feed/stock-abbv
-Abbott Labs
-ABT
-https://bsky.app/profile/bluestocks.app/feed/stock-abt
-Merck & Co
-MRK
-https://bsky.app/profile/bluestocks.app/feed/stock-mrk
-Intuitive Surgical
-ISRG
-https://bsky.app/profile/bluestocks.app/feed/stock-isrg
-Thermo Fisher Sci
-TMO
-https://bsky.app/profile/bluestocks.app/feed/stock-tmo
-Amgen
-AMGN
-https://bsky.app/profile/bluestocks.app/feed/stock-amgn
-Boston Scientific
-BSX
-https://bsky.app/profile/bluestocks.app/feed/stock-bsx
 
+| ***COMPANY***             | Ticker | URL                                                               |
+|---------------------------|--------|-------------------------------------------------------------------|
+| ***Eli Lilly***           | LLY    | <https://bsky.app/profile/bluestocks.app/feed/stock-lly>          |
+| ***United Health***       | UNH    | <https://bsky.app/profile/bluestocks.app/feed/stock-unh>          |
+| ***Johnson & Johnson***   | JNJ    | <https://bsky.app/profile/bluestocks.app/feed/stock-jnj>          |
+| ***Abbvie***              | ABBV   | <https://bsky.app/profile/bluestocks.app/feed/stock-abbv>         |
+| ***Abbott Labs***         | ABT    | <https://bsky.app/profile/bluestocks.app/feed/stock-abt>          |
+| ***Merck & Co***          | MRK    | <https://bsky.app/profile/bluestocks.app/feed/stock-mrk>          |
+| ***Intuitive Surgical***  | ISRG   | <https://bsky.app/profile/bluestocks.app/feed/stock-isrg>         |
+| ***Thermo Fisher Sci***   | TMO    | <https://bsky.app/profile/bluestocks.app/feed/stock-tmo>          |
+| ***Amgen***               | AMGN   | <https://bsky.app/profile/bluestocks.app/feed/stock-amgn>         |
+| ***Boston Scientific***   | BSX    | <https://bsky.app/profile/bluestocks.app/feed/stock-bsx>          | 
 
 
 
