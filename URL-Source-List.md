@@ -1,15 +1,17 @@
 ### Top 10 Firms by Market Capitalization - Company Background:
 
-***Eli Lilly***           LLY    <https://en.wikipedia.org/wiki/Eli_Lilly_and_Company>  
-***United Health***       UNH    <https://en.wikipedia.org/wiki/UnitedHealth_Group>  
-***Johnson & Johnson***   JNJ    <https://en.wikipedia.org/wiki/Johnson_%26_Johnson>  
-***Abbvie***              ABBV   <https://en.wikipedia.org/wiki/AbbVie>  
-***Abbott Labs***         ABT    <https://en.wikipedia.org/wiki/Abbott_Laboratories>  
-***Merck & Co***          MRK    <https://en.wikipedia.org/wiki/Merck_%26_Co.>  
-***Intuitive Surgical***  ISRG   <https://en.wikipedia.org/wiki/Intuitive_Surgical>  
-***Thermo Fisher Sci***   TMO    <https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific>  
-***Amgen***               AMGN   <https://en.wikipedia.org/wiki/Amgen>  
-***Boston Scientific***   BSX    <https://en.wikipedia.org/wiki/Boston_Scientific>  
+| ***COMPANY***             | Ticker | URL                                                       |
+|---------------------------|--------|-----------------------------------------------------------|
+| ***Eli Lilly***           | LLY    | <https://en.wikipedia.org/wiki/Eli_Lilly_and_Company>     |
+| ***United Health***       | UNH    | <https://en.wikipedia.org/wiki/UnitedHealth_Group>        |
+| ***Johnson & Johnson***   | JNJ    | <https://en.wikipedia.org/wiki/Johnson_%26_Johnson>       |
+| ***Abbvie***              | ABBV   | <https://en.wikipedia.org/wiki/AbbVie>                    |
+| ***Abbott Labs***         | ABT    | <https://en.wikipedia.org/wiki/Abbott_Laboratories>       |
+| ***Merck & Co***          | MRK    | <https://en.wikipedia.org/wiki/Merck_%26_Co.>             |
+| ***Intuitive Surgical***  | ISRG   | <https://en.wikipedia.org/wiki/Intuitive_Surgical>        |
+| ***Thermo Fisher Sci***   | TMO    | <https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific>  |
+| ***Amgen***               | AMGN   | <https://en.wikipedia.org/wiki/Amgen>                     |
+| ***Boston Scientific***   | BSX    | <https://en.wikipedia.org/wiki/Boston_Scientific>         |
   
   
 ### Healthcare Sector News
