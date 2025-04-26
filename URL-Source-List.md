@@ -38,7 +38,7 @@
 | ***Boston Scientific***   | BSX    | <https://finance.yahoo.com/quote/BSX/community/>          | 
 
 
-Top 10 Companies Reddit:
+### Top 10 Companies Reddit:
 
 | ***COMPANY***             | Ticker | URL                                                                                                                                                            |
 |---------------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ Top 10 Companies Reddit:
 | ***Boston Scientific***   | BSX    | <https://www.reddit.com/r/stocks/search/?q=BSX&type=posts&sort=new&cId=5b98cc13-ba34-4987-b9ec-6e96f5a82ac2&iId=1ec10747-6eb6-4653-a058-3fbd80a0f542>          | 
 
 
-Top 10 Companies BlueSky:
+### Top 10 Companies BlueSky:
 
 | ***COMPANY***             | Ticker | URL                                                               |
 |---------------------------|--------|-------------------------------------------------------------------|
