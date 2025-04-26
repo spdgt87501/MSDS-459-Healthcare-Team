@@ -16,44 +16,28 @@
   
 ### Healthcare Sector News
 
-***Yahoo Finance News***        <https://finance.yahoo.com/sectors/healthcare/>
-***CNBC Healthcare***           <https://www.cnbc.com/health-and-science/>
+| ***Web Page***            | URL                                                       |
+|---------------------------|-----------------------------------------------------------|
+| ***Yahoo Finance News***  | <https://finance.yahoo.com/sectors/healthcare/>           |
+| ***CNBC Healthcare***     | <https://www.cnbc.com/health-and-science/>                |
 
 
-Top 10 Companies Comment Section on YF:
-company
-symbol
-url
-Eli Lilly
-LLY
-https://finance.yahoo.com/quote/LLY/community/
-United Health
-UNH
-https://finance.yahoo.com/quote/UNH/community/
-Johnson & Johnson
-JNJ
-https://finance.yahoo.com/quote/JNJ/community/
-Abbvie
-ABBV
-https://finance.yahoo.com/quote/ABBV/community/
-Abbott Labs
-ABT
-https://finance.yahoo.com/quote/ABT/community/
-Merck & Co
-MRK
-https://finance.yahoo.com/quote/MRK/community/
-Intuitive Surgical
-ISRG
-https://finance.yahoo.com/quote/ISRG/community/
-Thermo Fisher Sci
-TMO
-https://finance.yahoo.com/quote/TMO/community/
-Amgen
-AMGN
-https://finance.yahoo.com/quote/AMGN/community/
-Boston Scientific
-BSX
-https://finance.yahoo.com/quote/BSX/community/
+
+### Top 10 Companies Comment Section on YF:
+
+| ***COMPANY***             | Ticker | URL                                                       |
+|---------------------------|--------|-----------------------------------------------------------|
+| ***Eli Lilly***           | LLY    | <https://finance.yahoo.com/quote/LLY/community/>          |
+| ***United Health***       | UNH    | <https://finance.yahoo.com/quote/UNH/community/>          |
+| ***Johnson & Johnson***   | JNJ    | <https://finance.yahoo.com/quote/JNJ/community/>          |
+| ***Abbvie***              | ABBV   | <https://finance.yahoo.com/quote/ABBV/community/>         |
+| ***Abbott Labs***         | ABT    | <https://finance.yahoo.com/quote/ABT/community/>          |
+| ***Merck & Co***          | MRK    | <https://finance.yahoo.com/quote/MRK/community/>          |
+| ***Intuitive Surgical***  | ISRG   | <https://finance.yahoo.com/quote/ISRG/community/>         |
+| ***Thermo Fisher Sci***   | TMO    | <https://finance.yahoo.com/quote/TMO/community/>          |
+| ***Amgen***               | AMGN   | <https://finance.yahoo.com/quote/AMGN/community/>         |
+| ***Boston Scientific***   | BSX    | <https://finance.yahoo.com/quote/BSX/community/>          |
+
 
 
 Top 10 Companies Reddit:
