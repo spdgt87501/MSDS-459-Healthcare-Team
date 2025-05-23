@@ -1,0 +1,554 @@
+{"name": "a white house", "label": "ORG"}
+{"name": "abbott", "label": "GPE"}
+{"name": "abbott", "label": "ORG"}
+{"name": "abbott", "label": "PERSON"}
+{"name": "abbott laboratories", "label": "ORG"}
+{"name": "abbott labs stock", "label": "ORG"}
+{"name": "abbott labs stock jumps", "label": "ORG"}
+{"name": "abbott reckitt", "label": "ORG"}
+{"name": "abbott stock slips", "label": "ORG"}
+{"name": "abbotts", "label": "GPE"}
+{"name": "abbotts first", "label": "ORG"}
+{"name": "abc", "label": "ORG"}
+{"name": "abercrombie amp", "label": "ORG"}
+{"name": "abercrombie fitch", "label": "ORG"}
+{"name": "ahlam antar", "label": "PERSON"}
+{"name": "ahmad", "label": "PERSON"}
+{"name": "alan", "label": "PERSON"}
+{"name": "alan hutchison", "label": "PERSON"}
+{"name": "alan shaw", "label": "PERSON"}
+{"name": "alaska", "label": "GPE"}
+{"name": "albert bourla", "label": "PERSON"}
+{"name": "albert bourlas", "label": "PERSON"}
+{"name": "alex pope", "label": "PERSON"}
+{"name": "alex thompson", "label": "PERSON"}
+{"name": "allows medical clinics", "label": "ORG"}
+{"name": "altoona", "label": "GPE"}
+{"name": "amazon", "label": "ORG"}
+{"name": "america", "label": "GPE"}
+{"name": "american university", "label": "ORG"}
+{"name": "americans unitedhealth group", "label": "ORG"}
+{"name": "americas science agency", "label": "ORG"}
+{"name": "amgen", "label": "ORG"}
+{"name": "amgen amgn", "label": "ORG"}
+{"name": "amgen stock sinks", "label": "ORG"}
+{"name": "amgen stock slides", "label": "ORG"}
+{"name": "anderson", "label": "PERSON"}
+{"name": "andrew dudum", "label": "PERSON"}
+{"name": "andrew mok", "label": "PERSON"}
+{"name": "andrew witty", "label": "PERSON"}
+{"name": "andy mills", "label": "PERSON"}
+{"name": "ann miurako enke", "label": "PERSON"}
+{"name": "anne dwane karin", "label": "PERSON"}
+{"name": "archie york", "label": "GPE"}
+{"name": "arizona", "label": "GPE"}
+{"name": "arkansas", "label": "GPE"}
+{"name": "australia", "label": "GPE"}
+{"name": "australias universal healthcare", "label": "ORG"}
+{"name": "balwani", "label": "PERSON"}
+{"name": "barack obama", "label": "PERSON"}
+{"name": "bbc", "label": "ORG"}
+{"name": "bbc news", "label": "ORG"}
+{"name": "biden", "label": "PERSON"}
+{"name": "bill barrett", "label": "PERSON"}
+{"name": "biopharma seigerman", "label": "ORG"}
+{"name": "blue shield", "label": "ORG"}
+{"name": "bmi", "label": "ORG"}
+{"name": "bodapatiathelas ullia court", "label": "ORG"}
+{"name": "boeing", "label": "ORG"}
+{"name": "boston", "label": "GPE"}
+{"name": "boston university", "label": "ORG"}
+{"name": "boucher", "label": "PERSON"}
+{"name": "brandenburg cottbus", "label": "PERSON"}
+{"name": "brazil", "label": "GPE"}
+{"name": "brendan foley", "label": "PERSON"}
+{"name": "brian thompson", "label": "PERSON"}
+{"name": "bristol", "label": "ORG"}
+{"name": "bristol myers", "label": "ORG"}
+{"name": "brondell", "label": "PERSON"}
+{"name": "bryan texas", "label": "PERSON"}
+{"name": "california", "label": "GPE"}
+{"name": "canada", "label": "GPE"}
+{"name": "caremark", "label": "GPE"}
+{"name": "caremark", "label": "PERSON"}
+{"name": "caremark starting", "label": "PERSON"}
+{"name": "carl coleman", "label": "PERSON"}
+{"name": "cbs", "label": "ORG"}
+{"name": "cdc", "label": "ORG"}
+{"name": "chelsea jia fengbi", "label": "PERSON"}
+{"name": "china", "label": "GPE"}
+{"name": "chris klomp", "label": "PERSON"}
+{"name": "chris schott", "label": "PERSON"}
+{"name": "christopher boerner", "label": "PERSON"}
+{"name": "chuck divita", "label": "PERSON"}
+{"name": "circle k owner", "label": "ORG"}
+{"name": "claudia", "label": "GPE"}
+{"name": "claudia sheinbaum", "label": "PERSON"}
+{"name": "cms", "label": "ORG"}
+{"name": "cnbc", "label": "ORG"}
+{"name": "cnbc eli lilly", "label": "PERSON"}
+{"name": "colorado", "label": "GPE"}
+{"name": "columbus", "label": "GPE"}
+{"name": "congress", "label": "ORG"}
+{"name": "courtney breen", "label": "PERSON"}
+{"name": "cuba", "label": "GPE"}
+{"name": "dan", "label": "PERSON"}
+{"name": "dan stevens", "label": "PERSON"}
+{"name": "daniel immerwahr reviews", "label": "ORG"}
+{"name": "daniel perez", "label": "PERSON"}
+{"name": "dave denton", "label": "PERSON"}
+{"name": "dave weldon", "label": "PERSON"}
+{"name": "david", "label": "PERSON"}
+{"name": "david joyner", "label": "PERSON"}
+{"name": "david perez", "label": "PERSON"}
+{"name": "david ricks", "label": "PERSON"}
+{"name": "david tennant", "label": "PERSON"}
+{"name": "davis", "label": "PERSON"}
+{"name": "de cuba", "label": "ORG"}
+{"name": "de cuba", "label": "PERSON"}
+{"name": "dea", "label": "ORG"}
+{"name": "dennis patterson", "label": "PERSON"}
+{"name": "dexcom", "label": "ORG"}
+{"name": "donald tr", "label": "PERSON"}
+{"name": "donald tru", "label": "PERSON"}
+{"name": "donald trump", "label": "PERSON"}
+{"name": "donald trumps", "label": "PERSON"}
+{"name": "donald trumps latest nominee", "label": "PERSON"}
+{"name": "doris hrtel more", "label": "PERSON"}
+{"name": "doug emhoff", "label": "PERSON"}
+{"name": "dr alan tan", "label": "PERSON"}
+{"name": "dr casey", "label": "PERSON"}
+{"name": "dr chris george", "label": "PERSON"}
+{"name": "dr george yancopoulos regenerons president", "label": "PERSON"}
+{"name": "dr georges benjamin", "label": "PERSON"}
+{"name": "dr hassan", "label": "PERSON"}
+{"name": "dr janette", "label": "PERSON"}
+{"name": "dr janette nesheiwat", "label": "PERSON"}
+{"name": "dr kavita", "label": "PERSON"}
+{"name": "dr marissa levine", "label": "PERSON"}
+{"name": "dr marty", "label": "PERSON"}
+{"name": "dr vivian lee", "label": "PERSON"}
+{"name": "ebay calmaine", "label": "ORG"}
+{"name": "eddie howe", "label": "PERSON"}
+{"name": "egypt", "label": "GPE"}
+{"name": "elancos aqua business", "label": "ORG"}
+{"name": "eli l", "label": "ORG"}
+{"name": "eli lilly", "label": "ORG"}
+{"name": "eli lilly", "label": "PERSON"}
+{"name": "eli lilly ceo", "label": "ORG"}
+{"name": "eli lilly oral weightloss drug", "label": "ORG"}
+{"name": "eli lilly sales soar", "label": "ORG"}
+{"name": "eli lilly stock", "label": "ORG"}
+{"name": "eli lilly stock drops", "label": "ORG"}
+{"name": "eli lillys", "label": "PERSON"}
+{"name": "eli lillys drug", "label": "ORG"}
+{"name": "eli lillys stock", "label": "ORG"}
+{"name": "eli lillys zepbound", "label": "PERSON"}
+{"name": "elizabeth", "label": "PERSON"}
+{"name": "england", "label": "GPE"}
+{"name": "eric stonestreet", "label": "PERSON"}
+{"name": "erik bolog", "label": "PERSON"}
+{"name": "erin patterson", "label": "PERSON"}
+{"name": "eu", "label": "PERSON"}
+{"name": "evan seigerman", "label": "PERSON"}
+{"name": "everyth", "label": "ORG"}
+{"name": "ezra", "label": "PERSON"}
+{"name": "fbi", "label": "ORG"}
+{"name": "fda", "label": "ORG"}
+{"name": "fed", "label": "ORG"}
+{"name": "federal trade commission", "label": "ORG"}
+{"name": "feng wei", "label": "PERSON"}
+{"name": "fernando madeira", "label": "PERSON"}
+{"name": "fifa", "label": "ORG"}
+{"name": "florida", "label": "GPE"}
+{"name": "fond du lac", "label": "GPE"}
+{"name": "fond du lac school district", "label": "ORG"}
+{"name": "fox news medical", "label": "ORG"}
+{"name": "france", "label": "GPE"}
+{"name": "frances lee", "label": "PERSON"}
+{"name": "frida strober", "label": "ORG"}
+{"name": "fridas", "label": "PERSON"}
+{"name": "fruergaard jrgensen", "label": "PERSON"}
+{"name": "ga", "label": "ORG"}
+{"name": "gaap vs", "label": "PERSON"}
+{"name": "gabriel mecklenburg", "label": "PERSON"}
+{"name": "gaza", "label": "GPE"}
+{"name": "ge", "label": "ORG"}
+{"name": "ge healthcare", "label": "ORG"}
+{"name": "geoffrey moore", "label": "PERSON"}
+{"name": "georgia", "label": "GPE"}
+{"name": "gerard anderson", "label": "PERSON"}
+{"name": "gillian anderson", "label": "PERSON"}
+{"name": "glp", "label": "ORG"}
+{"name": "glp", "label": "PERSON"}
+{"name": "glp drugs", "label": "ORG"}
+{"name": "glp medications", "label": "PERSON"}
+{"name": "gm", "label": "ORG"}
+{"name": "google", "label": "ORG"}
+{"name": "google", "label": "PRODUCT"}
+{"name": "gop", "label": "ORG"}
+{"name": "gordonfarleigh jamie kadolski", "label": "PERSON"}
+{"name": "gpt", "label": "ORG"}
+{"name": "greg abel warren buffetts", "label": "PERSON"}
+{"name": "greg case", "label": "PERSON"}
+{"name": "greg gianforte", "label": "PERSON"}
+{"name": "grok googles", "label": "PERSON"}
+{"name": "groun", "label": "PERSON"}
+{"name": "guezafp", "label": "PERSON"}
+{"name": "harry stevens", "label": "PERSON"}
+{"name": "harvard medical school and harvards school of public health", "label": "ORG"}
+{"name": "hca healthcare", "label": "ORG"}
+{"name": "healthcare", "label": "ORG"}
+{"name": "heffington", "label": "PERSON"}
+{"name": "hengrui pharma", "label": "PERSON"}
+{"name": "henry meds", "label": "PERSON"}
+{"name": "hhs kennedy", "label": "PERSON"}
+{"name": "holz mizuho healthcare equity", "label": "ORG"}
+{"name": "horowitz", "label": "GPE"}
+{"name": "horowitz", "label": "ORG"}
+{"name": "hrsas office of health equity", "label": "ORG"}
+{"name": "imperial college london", "label": "ORG"}
+{"name": "inbev molson", "label": "PERSON"}
+{"name": "india", "label": "GPE"}
+{"name": "indiana university school of medicine", "label": "ORG"}
+{"name": "inn", "label": "ORG"}
+{"name": "international bank of reconstruction and", "label": "ORG"}
+{"name": "ireland", "label": "GPE"}
+{"name": "ireland germany", "label": "GPE"}
+{"name": "irs", "label": "ORG"}
+{"name": "isda master", "label": "PERSON"}
+{"name": "ismail", "label": "PERSON"}
+{"name": "ismail abu odeh", "label": "PERSON"}
+{"name": "israel", "label": "GPE"}
+{"name": "israels defense ministry", "label": "ORG"}
+{"name": "jacksonville", "label": "PERSON"}
+{"name": "jacob hale russell", "label": "PERSON"}
+{"name": "james gunn keeps", "label": "PERSON"}
+{"name": "jamie roberts", "label": "PERSON"}
+{"name": "jargon google", "label": "ORG"}
+{"name": "jeffrey bowie", "label": "PERSON"}
+{"name": "jen radin", "label": "ORG"}
+{"name": "jennie joseph", "label": "PERSON"}
+{"name": "jensen huangs nvidia", "label": "PERSON"}
+{"name": "jill greenberg", "label": "PERSON"}
+{"name": "jim", "label": "PERSON"}
+{"name": "jnj  ", "label": "PERSON"}
+{"name": "jnj surges", "label": "PERSON"}
+{"name": "joanna strober", "label": "PERSON"}
+{"name": "joe", "label": "PERSON"}
+{"name": "joe biden", "label": "PERSON"}
+{"name": "johns hopkins bloomberg school of public health", "label": "ORG"}
+{"name": "johnson", "label": "PERSON"}
+{"name": "johnson johnson", "label": "PERSON"}
+{"name": "johnson johnson jnj", "label": "PERSON"}
+{"name": "johnson johnson jnj  ", "label": "PERSON"}
+{"name": "johnson johnsons jnj", "label": "PERSON"}
+{"name": "jolley", "label": "ORG"}
+{"name": "jon reynolds", "label": "PERSON"}
+{"name": "jonathan swerdlin", "label": "PERSON"}
+{"name": "jordan", "label": "GPE"}
+{"name": "joshua sturm", "label": "PERSON"}
+{"name": "jrgensen", "label": "PERSON"}
+{"name": "judy faulkner", "label": "PERSON"}
+{"name": "julie yoo", "label": "PERSON"}
+{"name": "juno", "label": "ORG"}
+{"name": "kabbani", "label": "PERSON"}
+{"name": "kamala harris", "label": "PERSON"}
+{"name": "kara egan", "label": "PERSON"}
+{"name": "karen lynch", "label": "PERSON"}
+{"name": "katy watson", "label": "PERSON"}
+{"name": "kb home stock gains", "label": "ORG"}
+{"name": "kennedy", "label": "PERSON"}
+{"name": "kentucky", "label": "GPE"}
+{"name": "kenvue", "label": "PERSON"}
+{"name": "kerri pegg", "label": "PERSON"}
+{"name": "kevin oconnor", "label": "PERSON"}
+{"name": "kff", "label": "ORG"}
+{"name": "kim", "label": "PERSON"}
+{"name": "kim kardashian", "label": "PERSON"}
+{"name": "kj", "label": "PERSON"}
+{"name": "klein", "label": "GPE"}
+{"name": "lancaster county", "label": "GPE"}
+{"name": "larry", "label": "PERSON"}
+{"name": "laura palmerand", "label": "PERSON"}
+{"name": "laurene powell jobs emerson", "label": "PERSON"}
+{"name": "lawrence gostin", "label": "PERSON"}
+{"name": "leeds", "label": "GPE"}
+{"name": "leigh purvis", "label": "PERSON"}
+{"name": "lgbt health matters", "label": "ORG"}
+{"name": "li", "label": "PERSON"}
+{"name": "lilishe", "label": "PERSON"}
+{"name": "lilly", "label": "ORG"}
+{"name": "lilly ahmad", "label": "ORG"}
+{"name": "lititz", "label": "PERSON"}
+{"name": "london", "label": "GPE"}
+{"name": "loomer", "label": "PERSON"}
+{"name": "lorraine kelly", "label": "PERSON"}
+{"name": "los angeles", "label": "GPE"}
+{"name": "lover holmes", "label": "PERSON"}
+{"name": "luigi mangione", "label": "PERSON"}
+{"name": "luis antonio", "label": "PERSON"}
+{"name": "madrid", "label": "GPE"}
+{"name": "makers abbott", "label": "PERSON"}
+{"name": "manhattan", "label": "GPE"}
+{"name": "marc andreessen", "label": "PERSON"}
+{"name": "march regeneron", "label": "GPE"}
+{"name": "marin county", "label": "GPE"}
+{"name": "marjorie taylor", "label": "PERSON"}
+{"name": "mark cuban", "label": "PERSON"}
+{"name": "mark jensen", "label": "PERSON"}
+{"name": "mark michalskiascertain", "label": "PERSON"}
+{"name": "mark miller", "label": "PERSON"}
+{"name": "mark pittman", "label": "PERSON"}
+{"name": "marty makary", "label": "PERSON"}
+{"name": "massachusetts", "label": "GPE"}
+{"name": "matt willis", "label": "PERSON"}
+{"name": "mcdonald wright", "label": "PERSON"}
+{"name": "mcfarland", "label": "GPE"}
+{"name": "medicaid", "label": "ORG"}
+{"name": "medicare", "label": "ORG"}
+{"name": "medicare medicaid", "label": "ORG"}
+{"name": "medtech pharma", "label": "PERSON"}
+{"name": "megan dixon", "label": "PERSON"}
+{"name": "melania", "label": "GPE"}
+{"name": "merck mrk", "label": "PERSON"}
+{"name": "merck stock", "label": "ORG"}
+{"name": "meth", "label": "GPE"}
+{"name": "mexico", "label": "GPE"}
+{"name": "mexico canada", "label": "ORG"}
+{"name": "mexico city", "label": "GPE"}
+{"name": "mexicos", "label": "ORG"}
+{"name": "miami", "label": "GPE"}
+{"name": "michael buchanansocial affairs correspondent", "label": "ORG"}
+{"name": "michael erman", "label": "PERSON"}
+{"name": "michael nedelcovych", "label": "PERSON"}
+{"name": "microsoft meta", "label": "ORG"}
+{"name": "midi health strober", "label": "ORG"}
+{"name": "mike tirico", "label": "PERSON"}
+{"name": "milken institute", "label": "ORG"}
+{"name": "missouri", "label": "GPE"}
+{"name": "modernas mrnabased", "label": "ORG"}
+{"name": "modernas supervaccine", "label": "PERSON"}
+{"name": "montana", "label": "GPE"}
+{"name": "movers boston", "label": "ORG"}
+{"name": "mummy", "label": "PERSON"}
+{"name": "myra ahmad", "label": "PERSON"}
+{"name": "nader kabbani", "label": "PERSON"}
+{"name": "nancy", "label": "PERSON"}
+{"name": "nasa", "label": "ORG"}
+{"name": "nashville", "label": "GPE"}
+{"name": "nathan boucher", "label": "PERSON"}
+{"name": "nbc", "label": "ORG"}
+{"name": "nbc news", "label": "ORG"}
+{"name": "nedelcovych", "label": "ORG"}
+{"name": "netflix", "label": "GPE"}
+{"name": "neurotech", "label": "PERSON"}
+{"name": "new jersey", "label": "GPE"}
+{"name": "new mexico", "label": "GPE"}
+{"name": "new surgeon general nominee", "label": "ORG"}
+{"name": "new york", "label": "GPE"}
+{"name": "new york city", "label": "GPE"}
+{"name": "new york times", "label": "GPE"}
+{"name": "newcastle", "label": "GPE"}
+{"name": "newmont", "label": "GPE"}
+{"name": "nih", "label": "ORG"}
+{"name": "nimhd", "label": "PERSON"}
+{"name": "norfolk southern investigates misconduct allegations against", "label": "ORG"}
+{"name": "north carolina", "label": "GPE"}
+{"name": "north dakota", "label": "GPE"}
+{"name": "northern gaza", "label": "GPE"}
+{"name": "norwich crown court", "label": "ORG"}
+{"name": "novo", "label": "PERSON"}
+{"name": "novo nordi", "label": "PERSON"}
+{"name": "novo nordisk", "label": "ORG"}
+{"name": "novo nordisk", "label": "PERSON"}
+{"name": "novo nordisk board", "label": "ORG"}
+{"name": "oakland", "label": "GPE"}
+{"name": "oklahoma city", "label": "GPE"}
+{"name": "oliver kharraz", "label": "PERSON"}
+{"name": "omada", "label": "ORG"}
+{"name": "omada cofounder", "label": "PERSON"}
+{"name": "omada health", "label": "PERSON"}
+{"name": "omaha union", "label": "ORG"}
+{"name": "oracle klas", "label": "ORG"}
+{"name": "oracle went", "label": "ORG"}
+{"name": "outro", "label": "ORG"}
+{"name": "owen lawrence", "label": "PERSON"}
+{"name": "oxford", "label": "ORG"}
+{"name": "palm springs", "label": "GPE"}
+{"name": "palm springs police department", "label": "ORG"}
+{"name": "pam bondi", "label": "PERSON"}
+{"name": "pamela bondi", "label": "PERSON"}
+{"name": "patriot paul", "label": "PERSON"}
+{"name": "paul kruszewski", "label": "PERSON"}
+{"name": "paul tough", "label": "ORG"}
+{"name": "pennsylvania", "label": "GPE"}
+{"name": "peter arduini", "label": "PERSON"}
+{"name": "peter wi", "label": "PERSON"}
+{"name": "peter wilson", "label": "PERSON"}
+{"name": "pfizer halts development of obesity drug", "label": "ORG"}
+{"name": "pharma stocks", "label": "ORG"}
+{"name": "prem shah", "label": "PERSON"}
+{"name": "proteinbas", "label": "ORG"}
+{"name": "publishe", "label": "PERSON"}
+{"name": "qatar", "label": "GPE"}
+{"name": "qualy", "label": "GPE"}
+{"name": "quantum", "label": "ORG"}
+{"name": "rachel feltman", "label": "PERSON"}
+{"name": "reckitt see", "label": "ORG"}
+{"name": "regeneron", "label": "GPE"}
+{"name": "regeneron", "label": "ORG"}
+{"name": "reuters", "label": "ORG"}
+{"name": "rfk jr", "label": "ORG"}
+{"name": "rfk jr anthony fauci", "label": "ORG"}
+{"name": "rfk jr finally", "label": "ORG"}
+{"name": "rfk vs rfk", "label": "ORG"}
+{"name": "rhode island", "label": "GPE"}
+{"name": "richard badenhausen", "label": "PERSON"}
+{"name": "richard stanton", "label": "PERSON"}
+{"name": "rick", "label": "PERSON"}
+{"name": "rob", "label": "PERSON"}
+{"name": "rob davis", "label": "PERSON"}
+{"name": "robert f kennedy", "label": "PERSON"}
+{"name": "robert f kennedy jr", "label": "PERSON"}
+{"name": "rosa delauro dconn", "label": "ORG"}
+{"name": "royal caribbean nvidia", "label": "ORG"}
+{"name": "rudina seseri", "label": "PERSON"}
+{"name": "rudina seseris", "label": "PERSON"}
+{"name": "russia", "label": "GPE"}
+{"name": "ryan langston", "label": "PERSON"}
+{"name": "s diabetes drug ozempic", "label": "ORG"}
+{"name": "salt lake city", "label": "GPE"}
+{"name": "sam", "label": "PERSON"}
+{"name": "san diego", "label": "GPE"}
+{"name": "san diego church", "label": "ORG"}
+{"name": "san francisco", "label": "GPE"}
+{"name": "san franciscobased startup", "label": "ORG"}
+{"name": "sarah", "label": "PERSON"}
+{"name": "schizophrenia drug", "label": "ORG"}
+{"name": "schizophrenia drug cobenfy", "label": "ORG"}
+{"name": "sci", "label": "ORG"}
+{"name": "scotland", "label": "GPE"}
+{"name": "scott braunstein", "label": "PERSON"}
+{"name": "seattle", "label": "GPE"}
+{"name": "senate", "label": "ORG"}
+{"name": "serena williams serena ventures", "label": "PERSON"}
+{"name": "shanghai", "label": "GPE"}
+{"name": "showin", "label": "ORG"}
+{"name": "simon atkinson", "label": "PERSON"}
+{"name": "singapore", "label": "GPE"}
+{"name": "smearslilia new diy home swab kit", "label": "ORG"}
+{"name": "society carolina", "label": "GPE"}
+{"name": "south africa", "label": "GPE"}
+{"name": "stanford", "label": "ORG"}
+{"name": "stephanie liu", "label": "PERSON"}
+{"name": "stephen hemsley", "label": "PERSON"}
+{"name": "stephen macedo", "label": "PERSON"}
+{"name": "stephen ubl", "label": "PERSON"}
+{"name": "steve benz novo", "label": "PERSON"}
+{"name": "story sam beard", "label": "PERSON"}
+{"name": "sullivan", "label": "PERSON"}
+{"name": "super micro", "label": "ORG"}
+{"name": "swerdlin", "label": "GPE"}
+{"name": "swerdlin", "label": "PERSON"}
+{"name": "switzerland", "label": "GPE"}
+{"name": "taiwan", "label": "GPE"}
+{"name": "tan", "label": "PERSON"}
+{"name": "technologies merck", "label": "PERSON"}
+{"name": "teladoc buys mental health company", "label": "ORG"}
+{"name": "tennessee", "label": "GPE"}
+{"name": "terry mcgovern", "label": "PERSON"}
+{"name": "texas", "label": "GPE"}
+{"name": "the american public health association", "label": "ORG"}
+{"name": "the american university of the caribbean school of medicine", "label": "ORG"}
+{"name": "the buck institute for research on", "label": "ORG"}
+{"name": "the bureaus los angeles", "label": "ORG"}
+{"name": "the california department of justice", "label": "ORG"}
+{"name": "the david lynch", "label": "ORG"}
+{"name": "the department of health and human services", "label": "ORG"}
+{"name": "the department of health and human services kennedy", "label": "ORG"}
+{"name": "the drug enforcement administration", "label": "ORG"}
+{"name": "the european union", "label": "ORG"}
+{"name": "the federal bureau", "label": "ORG"}
+{"name": "the food and drug", "label": "ORG"}
+{"name": "the food and drug administration", "label": "ORG"}
+{"name": "the institute for health metrics", "label": "ORG"}
+{"name": "the justice department", "label": "ORG"}
+{"name": "the national institute", "label": "ORG"}
+{"name": "the national institute on minority health and health disparities", "label": "ORG"}
+{"name": "the new england journal of medicine", "label": "ORG"}
+{"name": "the new york stock exchange", "label": "ORG"}
+{"name": "the nih institute", "label": "ORG"}
+{"name": "the rand corp", "label": "ORG"}
+{"name": "the regeneron international science", "label": "ORG"}
+{"name": "the supreme court", "label": "ORG"}
+{"name": "the united nations", "label": "ORG"}
+{"name": "the united states", "label": "GPE"}
+{"name": "the university of arkansas school of medicine", "label": "ORG"}
+{"name": "the university of oxford", "label": "ORG"}
+{"name": "the university of south florida", "label": "ORG"}
+{"name": "the university of texas medical br chars", "label": "ORG"}
+{"name": "the university of washington", "label": "ORG"}
+{"name": "the us", "label": "ORG"}
+{"name": "the us coast guard", "label": "ORG"}
+{"name": "the us department of health and human services hhs", "label": "ORG"}
+{"name": "the us food and drug administration", "label": "ORG"}
+{"name": "the wall street journal unitedhealth group", "label": "ORG"}
+{"name": "the white house", "label": "ORG"}
+{"name": "the white house ge healthcare", "label": "ORG"}
+{"name": "the white house office of management and budget", "label": "ORG"}
+{"name": "thermo fisher", "label": "ORG"}
+{"name": "thermo fisher", "label": "PERSON"}
+{"name": "tim friede", "label": "PERSON"}
+{"name": "tirico", "label": "GPE"}
+{"name": "tom tunstall", "label": "PERSON"}
+{"name": "trans", "label": "ORG"}
+{"name": "transge", "label": "ORG"}
+{"name": "tricia neuman", "label": "PERSON"}
+{"name": "trump", "label": "ORG"}
+{"name": "trump", "label": "PERSON"}
+{"name": "trump administration", "label": "ORG"}
+{"name": "trump doj", "label": "PERSON"}
+{"name": "trumps", "label": "PERSON"}
+{"name": "trumps agenda", "label": "PERSON"}
+{"name": "trumps big", "label": "PERSON"}
+{"name": "trumps firstterm agenda", "label": "PERSON"}
+{"name": "trumps funding", "label": "PERSON"}
+{"name": "trumps medicaid", "label": "PERSON"}
+{"name": "trumps nominee", "label": "PERSON"}
+{"name": "trumps order", "label": "PERSON"}
+{"name": "tuesdaylilicostco", "label": "ORG"}
+{"name": "tyre nichols", "label": "PERSON"}
+{"name": "uae", "label": "GPE"}
+{"name": "uk", "label": "GPE"}
+{"name": "ullilawyer erik bolog", "label": "PERSON"}
+{"name": "ullirussia", "label": "GPE"}
+{"name": "union county north carolina", "label": "GPE"}
+{"name": "united healthcare", "label": "ORG"}
+{"name": "unitedhealth group", "label": "ORG"}
+{"name": "unitedhealth nvidia eli lilly", "label": "ORG"}
+{"name": "unitedhealthcare unitedhealth group", "label": "ORG"}
+{"name": "university of texas medical", "label": "ORG"}
+{"name": "us", "label": "GPE"}
+{"name": "us mexico", "label": "GPE"}
+{"name": "utah", "label": "GPE"}
+{"name": "vanderbilt university medical center", "label": "ORG"}
+{"name": "veterans affairs", "label": "ORG"}
+{"name": "vicki loader", "label": "PERSON"}
+{"name": "vietnam", "label": "GPE"}
+{"name": "walter reed national military medical center", "label": "ORG"}
+{"name": "warren buffett", "label": "PERSON"}
+{"name": "washington", "label": "GPE"}
+{"name": "west georgia", "label": "GPE"}
+{"name": "west texas", "label": "GPE"}
+{"name": "west village", "label": "GPE"}
+{"name": "white house", "label": "ORG"}
+{"name": "william blair", "label": "PERSON"}
+{"name": "wisconsin", "label": "GPE"}
+{"name": "withou", "label": "GPE"}
+{"name": "worksputnikvia", "label": "GPE"}
+{"name": "wr", "label": "PERSON"}
+{"name": "wyatt russell", "label": "PERSON"}
+{"name": "xfiles", "label": "ORG"}
+{"name": "xi", "label": "PERSON"}
+{"name": "yearold", "label": "GPE"}

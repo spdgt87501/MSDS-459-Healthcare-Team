@@ -1,0 +1,47 @@
+module default {
+  	type Company {
+    required name: str;
+    required stock_ticker: str { constraint exclusive; }
+    headquarters: str;
+    founding_year: int32;
+    revenue: float64;
+    employees: int32;
+    market_cap: float64;
+    industry: str;
+	}
+
+  	type StockPrice {
+    required date: cal::local_date;
+    required close: float64;
+    open: float64;
+    high: float64;
+    low: float64;
+    volume: int64;
+    required link company: Company;
+    constraint exclusive on ((.date, .company));
+	}
+
+  	type Product {
+    required name: str;
+    type: str;
+    approval_date: cal::local_date;
+    revenue: float64;
+    link manufacturer: Company;
+  	}
+
+  	type NewsArticle {
+    required url: str { constraint exclusive; }
+    required title: str;
+    publication_date: datetime; # Changed to datetime for precision
+    source: str;
+    author: str;
+    summary: str;
+    content: str;
+    tags: array<str>;
+    category: str;
+    metadata: json;
+    sentiment_score: float32; # For sentiment analysis
+    multi link mentions_companies: Company;
+    multi link mentions_products: Product;
+    }
+}
