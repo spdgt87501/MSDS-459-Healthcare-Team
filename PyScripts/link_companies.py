@@ -1,4 +1,5 @@
 # This script links the companies to the GEL database
+# Run this script in project root using command: python PyScripts/link_companies.py
 
 import json
 import asyncio

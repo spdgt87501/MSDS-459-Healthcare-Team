@@ -1,4 +1,5 @@
 # This script is used to test the database queries
+# Run this script in project root
 
 
 import asyncio

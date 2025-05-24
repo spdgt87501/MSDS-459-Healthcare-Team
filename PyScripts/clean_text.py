@@ -1,6 +1,7 @@
 # This script loads the jl files from multiple input paths
 # The text is cleaned and then saved to a new jl file
-# Stock data is not cleaned 
+# Stock data is not cleaned - it is processed in a separate script
+# Run this script in project root using command: python PyScripts/clean_text.py
 
 import json
 import re

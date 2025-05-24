@@ -1,6 +1,7 @@
 # This script extracts entities and relations from the text
 # It is used to extract the entities and relations from the text
 # It is called by the map_to_gel.py script
+# Run this script in project root using command: python PyScripts/extract_ent-rel.py
 
 import json
 import re
