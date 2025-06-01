@@ -9,6 +9,7 @@ import asyncio
 import gel
 import os
 import sys
+import logging
 
 # This is needed for asyncio bug in Python 3.10 on Windows
 if sys.platform.startswith("win"):
@@ -78,7 +79,8 @@ async def insert_news_articles(client, article_file):
 
             title = item.get("title") or "Untitled"
             url = item.get("url")
-            pub_date_str = item.get("publishedAt")
+            # Try both publication_date and publishedAt fields
+            pub_date_str = item.get("publication_date") or item.get("publishedAt")
             content = item.get("text", item.get("content", ""))  # Try text field first, then content
             
             # Default sentiment score - will be updated by ingest_sentiment.py
@@ -89,6 +91,7 @@ async def insert_news_articles(client, article_file):
                 try:
                     pub_date = datetime.datetime.fromisoformat(pub_date_str).replace(tzinfo=None)
                 except ValueError:
+                    logging.warning(f"Failed to parse date {pub_date_str} for URL: {url}")
                     pass
 
             tickers = [c["ticker"] for c in item.get("companies", [])]

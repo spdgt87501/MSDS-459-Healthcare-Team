@@ -4,7 +4,8 @@ import gel
 
 INPUT_FILES = [
     "../CNBC_items_with_predictions.jl",
-    "../Investopedia_articles_with_predictions.jl"
+    "../Investopedia_articles_with_predictions.jl",
+    "../NewsAPI_Items_with_predictions.jl"
 ]
 
 async def backfill_sentiment(client):
