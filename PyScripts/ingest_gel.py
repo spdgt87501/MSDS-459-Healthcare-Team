@@ -79,8 +79,10 @@ async def insert_news_articles(client, article_file):
             title = item.get("title") or "Untitled"
             url = item.get("url")
             pub_date_str = item.get("publishedAt")
-            content = item.get("content", "")
-            sentiment = float(item.get("sentiment", 0.0))
+            content = item.get("text", item.get("content", ""))  # Try text field first, then content
+            
+            # Default sentiment score - will be updated by ingest_sentiment.py
+            sentiment = 0.0
 
             pub_date = None
             if pub_date_str:
@@ -116,12 +118,15 @@ async def insert_news_articles(client, article_file):
                 }
             ''', title=title, url=url, pub_date=pub_date, sentiment=sentiment, content=content, tickers=tickers)
 
-
 async def main():
     os.environ["GEL_PROJECT_PATH"] = os.path.abspath(os.path.dirname(__file__) + '/../gelDB')
     client = gel.create_async_client()
+    
+    # Insert entities and relations
     await insert_entities(client, '../data/processed/gel_entities.jsonl')
     await insert_relations(client, '../data/processed/gel_relations.jsonl')
+    
+    # Insert news articles from all sources
     await insert_news_articles(client, '../data/processed/entities_extracted.jsonl')
 
     await client.aclose()

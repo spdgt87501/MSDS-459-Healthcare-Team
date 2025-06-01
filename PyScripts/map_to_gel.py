@@ -6,6 +6,7 @@
 import json
 import re
 from collections import defaultdict
+from dateutil import parser
 
 # === Config ===
 INPUT_FILE = 'data/processed/entities_extracted.jsonl'
@@ -30,11 +31,16 @@ COMPANY_KEYWORDS = {
 entity_set = set()
 relations = []
 
+
 with open(INPUT_FILE, 'r', encoding='utf-8') as f:
     for line in f:
         item = json.loads(line)
         url = item.get("url", "")
-        date = item.get("publishedAt", "")
+        
+        try:
+            date = parser.isoparse(item.get("publication_date", "")).isoformat()
+        except Exception:
+            date = None
 
         title = item.get("title", "")
         description = item.get("description", "")
@@ -42,17 +48,16 @@ with open(INPUT_FILE, 'r', encoding='utf-8') as f:
         text_blob = " ".join([title, description, content]).lower()
 
         comp_ticker = None
-
-        # Prefer matching company name from the companies list if available
-        companies = item.get("companies", [])
-        if companies:
-            name = companies[0].get("name", "").lower()
+        companies = item.get("companies") or []
+        for c in companies:
+            name = c.get("name", "").lower()
             for key, ticker in COMPANY_KEYWORDS.items():
                 if key in name:
                     comp_ticker = ticker
                     break
+            if comp_ticker:
+                break
 
-        # Fallback to substring match in the full text blob
         if not comp_ticker:
             for name, ticker in COMPANY_KEYWORDS.items():
                 if name in text_blob:
@@ -61,10 +66,10 @@ with open(INPUT_FILE, 'r', encoding='utf-8') as f:
 
         print(f"Matched company: {comp_ticker} from text: {text_blob[:120]}")
 
-        for ent in item.get("entities", []):
+        for ent in item.get("entities") or []:
             entity_set.add((ent["text"], ent["label"]))
 
-        for rel in item.get("relations", []):
+        for rel in item.get("relations") or []:
             relations.append({
                 "subject": rel["subject"],
                 "relation": rel["relation"],

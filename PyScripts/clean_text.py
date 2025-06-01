@@ -7,6 +7,8 @@ import json
 import re
 import os
 from glob import glob
+from dateutil import parser
+from datetime import datetime
 
 # === CONFIG ===
 INPUT_PATHS = [
@@ -35,12 +37,20 @@ def process_file(filepath):
                 item = json.loads(line)
                 source = item.get("source", {})
                 source_name = source.get("name", "") if isinstance(source, dict) else ""
+                
+                # Handle date formatting
+                iso_date = item.get("publish_date") or item.get("publishedAt") or ""
+                try:
+                    publication_date = parser.isoparse(iso_date).isoformat() if iso_date else None
+                except Exception:
+                    publication_date = None
+
                 cleaned.append({
                     "title": clean_text(item.get("title")),
                     "description": clean_text(item.get("description")),
                     "content": clean_text(item.get("content")),
                     "author": item.get("author", ""),
-                    "publishedAt": item.get("publishedAt", ""),
+                    "publication_date": publication_date,
                     "source": source_name,
                     "url": item.get("url", "")
                 })
@@ -56,8 +66,8 @@ def main():
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as out_file:
-            for entry in all_cleaned:
-                out_file.write(json.dumps(entry) + '\n')
+        for entry in all_cleaned:
+            out_file.write(json.dumps(entry) + '\n')
 
 if __name__ == '__main__':
     main()

@@ -69,19 +69,19 @@ def main():
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
         for line in f:
             item = json.loads(line)
-            full_text = f"{item['title']} {item['description']} {item['content']}"
+            full_text = f"{item.get('title', '')} {item.get('description', '')} {item.get('content', '')}"
             entities = extract_entities(full_text)
             companies = find_company(full_text)
             relations = extract_relations(full_text)
             results.append({
-                "url": item["url"],
+                "url": item.get("url"),
                 "entities": entities,
                 "companies": companies,
                 "relations": relations,
-                "publishedAt": item["publishedAt"],
-                "title": item["title"],
-                "description": item["description"],
-                "content": item["content"]
+                "publication_date": item.get("publication_date"),
+                "title": item.get("title"),
+                "description": item.get("description"),
+                "content": item.get("content")
             })
 
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as out:
