@@ -1,0 +1,3 @@
+timestamp,predicted_return,sentiment_ratio,decision,model_positive,sentiment_strong
+2025-06-03 17:02:05,0.001891333,,NO_BUY,True,
+2025-06-03 17:03:50,0.001891333,0.3333333333333333,NO_BUY,True,False
