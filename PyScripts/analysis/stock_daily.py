@@ -1,9 +1,8 @@
-# Python script processes and analyzes stock market data to calculate a sector-wide weekly return
+# This script processes and analyzes stock market data to calculate a sector-wide daily return
 # This script loads the stock data from the JSONL files and creates a DataFrame with the stock data
-# It then calculates the weekly average return across tickers
-# It averages these individual weekly returns across all tickers to compute an overall "hc_sector_return" by week
-# It saves this aggregated weekly sector return data to a CSV file - healthcare_sector_returns.csv
-
+# It then calculates the daily average return across tickers
+# It averages these individual daily returns across all tickers to compute an overall "hc_sector_return" by day
+# It saves this aggregated daily sector return data to a CSV file - healthcare_sector_returns.csv
 
 import pandas as pd
 import json
@@ -55,26 +54,24 @@ print(stock_df.describe())
 print("\nDate range:", stock_df["date"].min(), "to", stock_df["date"].max())
 print("Number of unique trading days:", stock_df["date"].nunique())
 
-# Calculate weekly average return across tickers
-stock_df["week"] = stock_df["date"].dt.to_period("W").apply(lambda r: r.start_time)
-weekly_close = stock_df.groupby(["ticker", "week"])["close"].last().reset_index()
-weekly_close["return"] = weekly_close.groupby("ticker")["close"].pct_change()
+# Calculate daily returns across tickers
+daily_close = stock_df.groupby(["ticker", "date"])["close"].last().reset_index()
+daily_close["return"] = daily_close.groupby("ticker")["close"].pct_change()
 
-print("\nWeekly returns sample:")
-print(weekly_close.head())
+print("\nDaily returns sample:")
+print(daily_close.head())
 
-# Average across tickers to form sector-wide weekly return
-weekly_avg = weekly_close.groupby("week")["return"].mean().reset_index()
-weekly_avg.rename(columns={"return": "hc_sector_return"}, inplace=True)
+# Average across tickers to form sector-wide daily return
+daily_avg = daily_close.groupby("date")["return"].mean().reset_index()
+daily_avg.rename(columns={"return": "hc_sector_return"}, inplace=True)
 
-print("\nSector-wide weekly returns sample:")
-print(weekly_avg.head())
+print("\nSector-wide daily returns sample:")
+print(daily_avg.head())
 
 print("\nSector returns summary:")
-print(weekly_avg["hc_sector_return"].describe())
+print(daily_avg["hc_sector_return"].describe())
 
 # Save to CSV for easy viewing
-output_path = os.path.join(output_dir, "healthcare_sector_returns.csv")
-weekly_avg.to_csv(output_path, index=False)
+output_path = os.path.join(output_dir, "hc_sector_daily_returns.csv")
+daily_avg.to_csv(output_path, index=False)
 print(f"\nData has been saved to: {output_path}")
-
